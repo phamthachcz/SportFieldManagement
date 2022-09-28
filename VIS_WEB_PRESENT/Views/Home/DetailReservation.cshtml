@@ -1,0 +1,131 @@
+﻿@model VIS_WEB_PRESENT.Models.BookingForm
+
+@{
+    ViewData["Title"] = "New Reservation";
+}
+
+@section AddToHead{
+    <link rel="stylesheet" href="~/Content/detailReservation.css">
+    <script src="~/Scripts/TimeTable.js"></script>
+}
+
+<ol class="breadcrumb">
+    <div class="container">
+        <span class="fas fa-home"></span>
+    <li><a href="@Url.Action("Index","Home")">Home</a></li>
+    <li class="active">@ViewBag.User</li>
+    <a href="@Url.Action("Logout", "Home")">Log Out</a>
+    </div>
+</ol>
+
+<section id="main-body">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-auto">
+                <div class="softcard">
+                    <div class="calendar-bar">
+                        <button class="prev soft-btn"><i class="fas fa-chevron-left"></i></button>
+                        <div class="current-month"></div>
+                        <button class="next soft-btn"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="calendar">
+                        <div class="weekdays-name">
+                            <div class="days-name">Sa</div>
+                            <div class="days-name">Su</div>
+                            <div class="days-name">Mo</div>
+                            <div class="days-name">Tu</div>
+                            <div class="days-name">We</div>
+                            <div class="days-name">Th</div>
+                            <div class="days-name">Fr</div>
+                        </div>
+                        <div class="calendar-days"></div>
+                    </div>
+                    <div class="goto-buttons">
+                        <button type="button" class="btn prev-year">Prev Year</button>
+                        <button type="button" class="btn today">Today</button>
+                        <button type="button" class="btn next-year">Next Year</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h1>Reservation</h1>
+                <h2 id="daySelected">@ViewBag.DaySelect</h2>
+                <div class="row">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                @foreach (var item in (List<string>)ViewBag.TimeTable)
+                                {
+                                    <th scope="col">@item</th>
+                                }
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in (Dictionary<string, List<int>>)ViewBag.DicTimetables)
+                            {
+                                <tr>
+                                    <th scope="row">@item.Key</th>
+                                    @foreach (var otem in (List<int>)item.Value)
+                                    {
+
+                                        if (otem == 0)
+                                        {
+                                            <td class="empty-space">@otem</td>
+                                        }
+                                        else if (otem == 1)
+                                        {
+                                            <td class="booked-space">@otem</td>
+                                        }
+                                        else
+                                        {
+                                            <td class="over-space">@otem</td>
+                                        }
+                                    }
+
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <dl class="empty-space col">Free</dl>
+
+                    </div>
+                    <div class="col">
+                        <dl class="booked-space col">Booked</dl>
+                    </div>
+
+                    <div class="col">
+                        <dl class="over-space col">Over</dl>
+                    </div>
+                </div>
+
+                <div class="row">
+                    @using (Html.BeginForm("DetailReservation", "Home", FormMethod.Post))
+                    {
+                        <div>Make Reservation</div>
+                        <div class="input-group mb-3">
+                            @Html.DropDownListFor(x => Model.FacilityID, new SelectList(ViewBag.Facilities, "id", "name"), "Select", new { id = "courtList" })
+
+                        </div>
+
+                        <div class="input-group mb-3">
+                            @Html.DropDownListFor(x => Model.TimeBook, new SelectList(Enumerable.Empty<SelectListItem>(), "id", "name"), "Select", new { id = "timefreeList" })
+
+                        </div>
+
+                        <div class="input-group mb-3">
+                            @Html.DropDownListFor(x => Model.Payment, new SelectList(ViewBag.listPayment, "ID", "Name"), "Select Payment")
+                        </div>
+
+                        <div><input type="submit" value="Booking" /></div>
+                    }
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>

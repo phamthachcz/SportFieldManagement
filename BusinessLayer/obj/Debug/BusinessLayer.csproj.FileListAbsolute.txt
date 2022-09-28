@@ -1,0 +1,11 @@
+G:\Other computers\My Computer\repos\VIS_UI\BusinessLayer\bin\Debug\BusinessLayer.pdb
+G:\Other computers\My Computer\repos\VIS_UI\BusinessLayer\bin\Debug\DataAccessLayer.dll
+G:\Other computers\My Computer\repos\VIS_UI\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+G:\Other computers\My Computer\repos\VIS_UI\BusinessLayer\bin\Debug\DataAccessLayer.dll.config
+G:\Other computers\My Computer\repos\VIS_UI\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+G:\Other computers\My Computer\repos\VIS_UI\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+G:\Other computers\My Computer\repos\VIS_UI\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+G:\Other computers\My Computer\repos\VIS_UI\BusinessLayer\obj\Debug\BusinessLayer.pdb
+G:\Other computers\My Computer\repos\VIS_UI\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+G:\Other computers\My Computer\repos\VIS_UI\BusinessLayer\bin\Debug\BusinessLayer.dll
+G:\Other computers\My Computer\repos\VIS_UI\BusinessLayer\obj\Debug\BusinessLayer.dll

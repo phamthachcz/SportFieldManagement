@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Success Booking";
+}
+
+@section AddToHead{
+    <link rel="stylesheet" href="~/Content/login.css">
+}
+
+<ol class="breadcrumb">
+    <div class="container">
+        <span class="fas fa-home"></span>
+    <li><a href="@Url.Action("Index","Home")">Home</a></li>
+    <li class="active">@ViewBag.User</li>
+    <a href="@Url.Action("Logout", "Home")">Log Out</a>
+    </div>
+</ol>
+
+<section id="main-body">
+    <div class="container">
+        <table style="width:100%">
+            <tr>
+                <th>Sport</th>
+                <th>Court</th>
+                <th>Time</th>
+                <th>Price</th>
+                <th>Payment</th>
+                <th>Status</th>
+            </tr>
+
+            @foreach (var item in (List<DataAccessLayer.DTO.History>)ViewBag.Histories)
+            {
+
+                <tr>
+                    <td>@item.NameSport</td>
+                    <td>@item.NameFacility</td>
+                    <td>@item.Start_time.ToString("yyyy-MM-dd => ") @item.Start_time.ToString("HH:mm") to @item.End_time.ToString("HH:mm")</td>
+                    <td>@item.Price</td>
+                    <td>@(item.IsPaid == 0 ? "Paid" : "Not Pay") </td>
+                    <td>@(item.Status == 0 ? "Confirm" : item.Status == 1 ? "Pending Confirm" : "Cancel") </td>
+
+
+                    @if (item.Start_time.Subtract(DateTime.Now).TotalSeconds >= 0)
+                    {
+                        <td><a href="@Url.Action("HistoryCancel", "Home", new { id = item.IdBooking })">Cancel</a></td>
+                    }
+            
+            
+                </tr>
+            }
+
+        </table>
+
+    </div>
+</section>

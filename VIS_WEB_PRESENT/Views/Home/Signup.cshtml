@@ -1,0 +1,42 @@
+﻿@model VIS_WEB_PRESENT.Models.SignupForm
+@{
+    ViewData["Title"] = "Login";
+}
+
+@section AddToHead{
+    <link rel="stylesheet" href="~/Content/signup.css">
+}
+
+<ol class="breadcrumb">
+    <div class="container">
+        <span class="fas fa-home"></span>
+    <li><a href="@Url.Action("Index","Home")">Home</a></li>
+    <li class="active">Login</li>
+    </div>
+</ol>
+
+<section id="main-body">
+    <div class="main">
+        <input type="checkbox" id="chk" aria-hidden="true">
+
+        <div class="signup">
+            <form action="/Home/Signup" method="post" id="signupform">
+
+                <label for="chk" aria-hidden="true">Sign up</label>
+                @Html.TextBoxFor(x => x.Login, new { @name = "txt", @placeholder = "User name" })
+                @Html.TextBoxFor(x => x.Password, new { @name = "pswd", @placeholder = "Password", @type = "password", @autocomplete = "off" })
+                @Html.TextBoxFor(x => x.FirstName, new { @name = "txt", @placeholder = "First Name" })
+                @Html.TextBoxFor(x => x.LastName, new { @name = "txt", @placeholder = "Last Name" })
+                @Html.DropDownListFor(x => x.Gender, new SelectList(ViewBag.GenderList, "ID", "Name"), "Select Gender")
+                @Html.TextBoxFor(x => x.Email, new { @name = "email", @placeholder = "Email", @type = "email" })
+                @Html.TextBoxFor(x => x.Phone, new { @name = "txt", @placeholder = "Phone Number" })
+                @Html.TextBoxFor(x => x.BirthDay, new { @name = "txt", @placeholder = "Your Birthday", @type = "date" })
+                <button type="submit" form="signupform" value="Submit">Sign up</button>
+            </form>
+        </div>
+
+        
+    </div>
+
+
+</section>

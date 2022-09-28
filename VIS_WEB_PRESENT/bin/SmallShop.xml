@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shops>
+  <Shop>
+    <Id value="1" />
+    <Name value="RSL Explorer 3.4 Extender Red" />
+    <Price value="2000" />
+    <Type value="Badminton bags" />
+  </Shop>
+  <Shop>
+    <Id value="2" />
+    <Name value="Victor BR8010 Aquarius" />
+    <Price value="1600" />
+    <Type value="Badminton bags" />
+  </Shop>
+  <Shop>
+    <Id value="3" />
+    <Name value="Victor BR8010 Aquarius" />
+    <Price value="1000" />
+    <Type value="Badminton bags" />
+  </Shop>
+  <Shop>
+    <Id value="4" />
+    <Name value="Victor BR8010 Aquarius" />
+    <Price value="600" />
+    <Type value="Badminton bags" />
+  </Shop>
+  <Shop>
+    <Id value="5" />
+    <Name value="ADIDAS E AKTIV.1 BLACK" />
+    <Price value="700" />
+    <Type value="RACKETS" />
+  </Shop>
+  <Shop>
+    <Id value="6" />
+    <Name value="ADIDAS E AKTIV.1 SILVER RED" />
+    <Price value="800" />
+    <Type value="RACKETS" />
+  </Shop>
+  <Shop>
+    <Id value="7" />
+    <Name value="ADIDAS KALKÜL A3" />
+    <Price value="2000" />
+    <Type value="RACKETS" />
+  </Shop>
+  
+</Shops>
+  
+ 

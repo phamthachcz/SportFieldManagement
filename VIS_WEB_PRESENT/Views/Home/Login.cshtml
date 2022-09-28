@@ -1,0 +1,54 @@
+﻿
+@model VIS_WEB_PRESENT.Models.LoginForm
+@{
+    ViewData["Title"] = "Login";
+}
+
+@section AddToHead{
+    <link rel="stylesheet" href="~/Content/login.css">
+}
+
+<ol class="breadcrumb">
+    <div class="container">
+        <span class="fas fa-home"></span>
+    <li><a href="@Url.Action("Index","Home")">Home</a></li>
+    <li class="active">Login</li>
+    </div>
+</ol>
+
+
+<section id="main-body">
+    <div class="container">
+        <div class="row">
+            <div class="logincontainer">
+                <div class="header-title-style">
+                    <div class="header-lined">
+                        <h1>Login</h1>
+                    </div>
+                </div>
+                <div class="login-custom">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <form method="post" action="" class="login-form" role="form">
+                                @Html.AntiForgeryToken()
+                                @Html.ValidationSummary(true, null, new { @class = "alert alert-danger"})
+                                <div class="form-group">
+                                    @Html.TextBoxFor(x => x.Login, new { @class = "userlogin", @placeholder = "Enter Login", @id = "inputLogin" })
+                                    @*<input type="email" name="username" class="userlogin" id="inputEmail" placeholder="Enter email" autofocus>*@
+                                    @Html.TextBoxFor(x => x.Password, new { @class = "userlogin", @placeholder = "Password", @id = "inputPassword", @type = "password", @autocomplete = "off" })
+                                    @*<input type="password" name="password" class="userlogin" id="inputPassword" placeholder="Password" autocomplete="off">*@
+                                </div>
+
+                                <div class="text-center margin-bottom">
+                                </div>
+                                <div align="center">
+                                    <input id="login" type="submit" class="login-but" value="Login" /> <a href="@Url.Action("Signup", "Home")" class="btn btn-default">Sign up</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

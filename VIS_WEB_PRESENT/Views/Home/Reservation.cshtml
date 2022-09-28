@@ -1,0 +1,37 @@
+﻿
+
+@{
+    ViewData["Title"] = "Make Reservation";
+}
+
+@section AddToHead{
+    <link rel="stylesheet" href="~/Content/detail.css">
+
+}
+
+<ol class="breadcrumb">
+    <div class="container">
+        <span class="fas fa-home"></span>
+    <li><a href="@Url.Action("Index","Home")">Home</a></li>
+    <li class="active">@ViewBag.User</li>
+    <a href="@Url.Action("Logout", "Home")">Log Out</a>
+    </div>
+</ol>
+
+<section id="main-body">
+
+    
+    <div class="container">
+        <h2>Sports Reservation</h2>
+        <div class="list-group">
+
+            @foreach (var item in (List<DataAccessLayer.DTO.FacilityCategory>)ViewBag.ListSports)
+            {
+                <a href="@Url.Action("DetailReservation", "Home", new {id = item.Id})" class="list-group-item list-group-item-action col-lg-2">@item.Name</a>
+            }
+        </div>
+
+    </div>
+
+
+</section>

@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewData["Title"] = "Shop";
+}
+
+@section AddToHead{
+    <link rel="stylesheet" href="~/Content/shop.css">
+}
+
+<section id="main-body">
+
+    @foreach (var item in (List<DataAccessLayer.DTO.Shop>)ViewBag.Shops)
+            {
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Name</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">@item.Price</h6>
+                        <p class="card-text">@item.Type</p>
+                        <a href="#" class="card-link">Buy</a>
+                    </div>
+                </div>
+            }
+
+
+</section>

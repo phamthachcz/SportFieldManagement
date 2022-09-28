@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "New Reservation";
+}
+
+@section AddToHead{
+    
+}
+
+<ol class="breadcrumb">
+    <div class="container">
+        <span class="fas fa-home"></span>
+    <li><a href="@Url.Action("Index","Home")">Home</a></li>
+    <li class="active">@ViewBag.User</li>
+    <a href="@Url.Action("Logout", "Home")">Log Out</a>
+    </div>
+</ol>

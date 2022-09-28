@@ -1,0 +1,59 @@
+C:\Users\Thec\source\repos\VIS_UI\VIS_UI\bin\Debug\VIS_UI.exe.config
+C:\Users\Thec\source\repos\VIS_UI\VIS_UI\bin\Debug\VIS_UI.exe
+C:\Users\Thec\source\repos\VIS_UI\VIS_UI\bin\Debug\VIS_UI.pdb
+C:\Users\Thec\source\repos\VIS_UI\VIS_UI\obj\Debug\VIS_UI.csprojAssemblyReference.cache
+C:\Users\Thec\source\repos\VIS_UI\VIS_UI\obj\Debug\VIS_UI.Form1.resources
+C:\Users\Thec\source\repos\VIS_UI\VIS_UI\obj\Debug\VIS_UI.Properties.Resources.resources
+C:\Users\Thec\source\repos\VIS_UI\VIS_UI\obj\Debug\VIS_UI.csproj.GenerateResource.cache
+C:\Users\Thec\source\repos\VIS_UI\VIS_UI\obj\Debug\VIS_UI.csproj.CoreCompileInputs.cache
+C:\Users\Thec\source\repos\VIS_UI\VIS_UI\obj\Debug\VIS_UI.exe
+C:\Users\Thec\source\repos\VIS_UI\VIS_UI\obj\Debug\VIS_UI.pdb
+C:\Users\Thec\source\repos\VIS_UI\VIS_UI\bin\Debug\VIS_Library.exe
+C:\Users\Thec\source\repos\VIS_UI\VIS_UI\bin\Debug\VIS_Library.pdb
+C:\Users\Thec\source\repos\VIS_UI\VIS_UI\bin\Debug\VIS_Library.exe.config
+C:\Users\Thec\source\repos\VIS_UI\VIS_UI\obj\Debug\VIS_UI.fSportManager.resources
+C:\Users\Thec\source\repos\VIS_UI\VIS_UI\obj\Debug\VIS_UI.csproj.CopyComplete
+G:\Other computers\My Computer\repos\VIS_UI\VIS_UI\bin\Debug\VIS_UI.exe.config
+G:\Other computers\My Computer\repos\VIS_UI\VIS_UI\bin\Debug\VIS_UI.exe
+G:\Other computers\My Computer\repos\VIS_UI\VIS_UI\bin\Debug\VIS_UI.pdb
+G:\Other computers\My Computer\repos\VIS_UI\VIS_UI\obj\Debug\VIS_UI.csproj.AssemblyReference.cache
+G:\Other computers\My Computer\repos\VIS_UI\VIS_UI\obj\Debug\VIS_UI.Form1.resources
+G:\Other computers\My Computer\repos\VIS_UI\VIS_UI\obj\Debug\VIS_UI.fSportManager.resources
+G:\Other computers\My Computer\repos\VIS_UI\VIS_UI\obj\Debug\VIS_UI.Properties.Resources.resources
+G:\Other computers\My Computer\repos\VIS_UI\VIS_UI\obj\Debug\VIS_UI.csproj.GenerateResource.cache
+G:\Other computers\My Computer\repos\VIS_UI\VIS_UI\obj\Debug\VIS_UI.csproj.CoreCompileInputs.cache
+G:\Other computers\My Computer\repos\VIS_UI\VIS_UI\obj\Debug\VIS_UI.csproj.CopyComplete
+G:\Other computers\My Computer\repos\VIS_UI\VIS_UI\obj\Debug\VIS_UI.exe
+G:\Other computers\My Computer\repos\VIS_UI\VIS_UI\obj\Debug\VIS_UI.pdb
+G:\Other computers\My Computer\repos\VIS_UI\VIS_UI\obj\Debug\VIS_UI.UserControls.UC_Home.resources
+G:\Other computers\My Computer\repos\VIS_UI\VIS_UI\obj\Debug\VIS_UI.UserControls.UC_Settings.resources
+G:\Other computers\My Computer\repos\VIS_UI\VIS_UI\obj\Debug\VIS_UI.fTimeTable.resources
+G:\Other computers\My Computer\repos\VIS_UI\VIS_UI\obj\Debug\VIS_UI.UserControls.UC_Booking.resources
+G:\Other computers\My Computer\repos\VIS_UI\VIS_UI\bin\Debug\BusinessLayer.dll
+G:\Other computers\My Computer\repos\VIS_UI\VIS_UI\bin\Debug\DataAccessLayer.dll
+G:\Other computers\My Computer\repos\VIS_UI\VIS_UI\bin\Debug\BusinessLayer.pdb
+G:\Other computers\My Computer\repos\VIS_UI\VIS_UI\bin\Debug\BusinessLayer.dll.config
+G:\Other computers\My Computer\repos\VIS_UI\VIS_UI\bin\Debug\DataAccessLayer.pdb
+G:\Other computers\My Computer\repos\VIS_UI\VIS_UI\bin\Debug\DataAccessLayer.dll.config
+D:\Study\All Project\VIS_UI\VIS_UI\bin\Debug\VIS_UI.exe.config
+D:\Study\All Project\VIS_UI\VIS_UI\bin\Debug\VIS_UI.exe
+D:\Study\All Project\VIS_UI\VIS_UI\bin\Debug\VIS_UI.pdb
+D:\Study\All Project\VIS_UI\VIS_UI\bin\Debug\BusinessLayer.dll
+D:\Study\All Project\VIS_UI\VIS_UI\bin\Debug\DataAccessLayer.dll
+D:\Study\All Project\VIS_UI\VIS_UI\bin\Debug\BusinessLayer.pdb
+D:\Study\All Project\VIS_UI\VIS_UI\bin\Debug\BusinessLayer.dll.config
+D:\Study\All Project\VIS_UI\VIS_UI\bin\Debug\DataAccessLayer.pdb
+D:\Study\All Project\VIS_UI\VIS_UI\bin\Debug\DataAccessLayer.dll.config
+D:\Study\All Project\VIS_UI\VIS_UI\obj\Debug\VIS_UI.csprojAssemblyReference.cache
+D:\Study\All Project\VIS_UI\VIS_UI\obj\Debug\VIS_UI.Form1.resources
+D:\Study\All Project\VIS_UI\VIS_UI\obj\Debug\VIS_UI.fSportManager.resources
+D:\Study\All Project\VIS_UI\VIS_UI\obj\Debug\VIS_UI.fTimeTable.resources
+D:\Study\All Project\VIS_UI\VIS_UI\obj\Debug\VIS_UI.Properties.Resources.resources
+D:\Study\All Project\VIS_UI\VIS_UI\obj\Debug\VIS_UI.UserControls.UC_Booking.resources
+D:\Study\All Project\VIS_UI\VIS_UI\obj\Debug\VIS_UI.UserControls.UC_Home.resources
+D:\Study\All Project\VIS_UI\VIS_UI\obj\Debug\VIS_UI.UserControls.UC_Settings.resources
+D:\Study\All Project\VIS_UI\VIS_UI\obj\Debug\VIS_UI.csproj.GenerateResource.cache
+D:\Study\All Project\VIS_UI\VIS_UI\obj\Debug\VIS_UI.csproj.CoreCompileInputs.cache
+D:\Study\All Project\VIS_UI\VIS_UI\obj\Debug\VIS_UI.csproj.CopyComplete
+D:\Study\All Project\VIS_UI\VIS_UI\obj\Debug\VIS_UI.exe
+D:\Study\All Project\VIS_UI\VIS_UI\obj\Debug\VIS_UI.pdb

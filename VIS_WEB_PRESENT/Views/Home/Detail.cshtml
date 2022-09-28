@@ -1,0 +1,37 @@
+﻿
+
+@{
+    ViewData["Title"] = "User Detail";
+}
+
+@section AddToHead{
+    <link rel="stylesheet" href="~/Content/detail.css">
+
+}
+
+<ol class="breadcrumb">
+    <div class="container">
+        <span class="fas fa-home"></span>
+    <li><a href="@Url.Action("Index","Home")">Home</a></li>
+    <li class="active">@ViewBag.User</li>
+    <a href="@Url.Action("Logout", "Home")">Log Out</a>
+    </div>
+
+</ol>
+
+<section id="main-body">
+    <div class="container">
+        <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+            <a class="btn btn-secondary" href="@Url.Action("Reservation", "Home")" role="button">Make Reservation</a>
+        </div>
+        <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+            <a class="btn btn-secondary" href="@Url.Action("History", "Home")" role="button">Manage Reservation</a>
+            
+        </div>
+        <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+            <a class="btn btn-secondary" href="#" role="button">Edit Profile</a>
+        </div>
+    </div>
+</section>
+
+

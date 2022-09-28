@@ -1,0 +1,16 @@
+G:\Other computers\My Computer\repos\VIS_UI\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+G:\Other computers\My Computer\repos\VIS_UI\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+G:\Other computers\My Computer\repos\VIS_UI\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+G:\Other computers\My Computer\repos\VIS_UI\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+G:\Other computers\My Computer\repos\VIS_UI\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+G:\Other computers\My Computer\repos\VIS_UI\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+G:\Other computers\My Computer\repos\VIS_UI\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+G:\Other computers\My Computer\repos\VIS_UI\DataAccessLayer\bin\Debug\SmallShop.xml
+D:\Study\All Project\VIS_UI\DataAccessLayer\bin\Debug\SmallShop.xml
+D:\Study\All Project\VIS_UI\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+D:\Study\All Project\VIS_UI\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+D:\Study\All Project\VIS_UI\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+D:\Study\All Project\VIS_UI\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+D:\Study\All Project\VIS_UI\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Study\All Project\VIS_UI\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+D:\Study\All Project\VIS_UI\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
